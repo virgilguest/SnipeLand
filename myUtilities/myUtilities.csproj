@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B5ACC829-D3CA-440E-BE4B-F66721973E1B}</ProjectGuid>
+    <ProjectGuid>{170EB872-4266-4165-92D1-B8EC46547AC6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SnipeLand</RootNamespace>
-    <AssemblyName>SnipeLand</AssemblyName>
+    <RootNamespace>myUtilities</RootNamespace>
+    <AssemblyName>myUtilities</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="myCharacter.cs" />
+    <Compile Include="myPlayer.cs" />
+    <Compile Include="myWeapons.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\myUtilities\myUtilities.csproj">
-      <Project>{170eb872-4266-4165-92d1-b8ec46547ac6}</Project>
-      <Name>myUtilities</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

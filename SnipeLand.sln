@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1684
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnipeLand", "SnipeLand\SnipeLand.csproj", "{B5ACC829-D3CA-440E-BE4B-F66721973E1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myUtilities", "myUtilities\myUtilities.csproj", "{170EB872-4266-4165-92D1-B8EC46547AC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B5ACC829-D3CA-440E-BE4B-F66721973E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5ACC829-D3CA-440E-BE4B-F66721973E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5ACC829-D3CA-440E-BE4B-F66721973E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170EB872-4266-4165-92D1-B8EC46547AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170EB872-4266-4165-92D1-B8EC46547AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170EB872-4266-4165-92D1-B8EC46547AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170EB872-4266-4165-92D1-B8EC46547AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
