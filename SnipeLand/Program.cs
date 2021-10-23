@@ -54,6 +54,13 @@ namespace SnipeLand
 
                 Monster[] monsters = { r1, r2, r2, r1, r1 }; //since all monster types will be a child of type monster, I can store them in
 
+                //randomly selecting a monster for the room
+                Random rand = new Random();
+                int randomNbr = rand.Next(monsters.Length);
+                Monster monster = monsters[randomNbr];
+
+                Console.WriteLine("\nIn this room: " + monster.Name);
+
                 //7. create a loop for the user choice menu.
                 bool reload = false;
                 do
