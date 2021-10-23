@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace myUtilities
 {
-    public abstract class myCharacter
+    public abstract class Character
     {
+        static void Main(string[] args)
+        {
+
+        }
         //fields
         private int _life;
         //properties

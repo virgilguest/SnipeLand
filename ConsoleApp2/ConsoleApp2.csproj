@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{170EB872-4266-4165-92D1-B8EC46547AC6}</ProjectGuid>
+    <ProjectGuid>{232231D7-7858-431C-BBB3-2A17988AFBF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>myUtilities</RootNamespace>
-    <AssemblyName>myUtilities</AssemblyName>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="myCharacter.cs" />
-    <Compile Include="myPlayer.cs" />
-    <Compile Include="myWeapons.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Race.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

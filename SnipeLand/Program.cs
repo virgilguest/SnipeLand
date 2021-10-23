@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using myUtilities;
+using myUtilities;
 
 
 namespace SnipeLand
@@ -29,7 +29,7 @@ namespace SnipeLand
             int myScore = 0;
 
             // 1. Create a player
-
+            Player player = new Player("Jenkins PO3", 70, 5, 40, 40, Race.MachinistMate, sword);
             //2. Create a weapon for the player
 
             //3. Add customization based on player
