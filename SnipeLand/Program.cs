@@ -24,7 +24,8 @@ namespace SnipeLand
              
              */
             Console.Title = "SnipeLand";
-            Console.WriteLine("No Twidget Ever Survives.\n");
+            Console.WriteLine("Snipe Country - The engineering spaces, bilges, and voids where the snipes dwell.\nConsidered to be extremely dangerous territory for non-snipes.\n'The snipes will get you' is commonly used to deter sailors from going too far below decks.");
+            Console.WriteLine("The snipes are going to get you.\n");
             int myScore = 0;
 
             // 1. Create a player
@@ -68,7 +69,7 @@ namespace SnipeLand
                         case ConsoleKey.M:
                             break;
                         case ConsoleKey.X:
-                        case ConsoleKey.E:
+                            Console.WriteLine("Try again Twidget!");
                             exit = true;
                             break;
                         default:
