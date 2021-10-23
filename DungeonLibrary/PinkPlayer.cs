@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace myUtilities
+namespace DungeonLibrary
 {
-    public enum Race
+    class PinkPlayer
     {
-        MachinistMate,
-        BoilerTechnician,
-        EngineMan
-
     }
 }

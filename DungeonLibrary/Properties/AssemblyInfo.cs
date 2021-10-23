@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("myUtilities")]
+[assembly: AssemblyTitle("DungeonLibrary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("myUtilities")]
+[assembly: AssemblyProduct("DungeonLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("170eb872-4266-4165-92d1-b8ec46547ac6")]
+[assembly: Guid("4d8c6898-10ca-4b6f-b7d6-75cc91f6c31f")]
 
 // Version information for an assembly consists of the following four values:
 //
