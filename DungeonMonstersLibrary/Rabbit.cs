@@ -23,14 +23,14 @@ namespace DungeonMonstersLibrary
         public Rabbit()
         {
             //default values 
-            MaxLife = 6;
-            MaxDamage = 3;
-            Name = "Baby Rabbit";
-            Life = 6;
-            HitChance = 20;
-            Block = 20;
+            MaxLife = 1;
+            MaxDamage = 1;
+            Name = "E1 Hull Tech";
+            Life = 1;
+            HitChance = 1;
+            Block = 1;
             MinDamage = 1;
-            Description = "It's just a cute little bunny...why would you hurt it....bully!!";
+            Description = "Fresh out of boot camp, and inexperienced.";
             IsFluffy = false; 
         }
 

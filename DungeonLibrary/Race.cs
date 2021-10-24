@@ -15,6 +15,7 @@ namespace DungeonLibrary
         //single values, no spaces in the value, comma separated
         MachinistMate,
         BoilerTechnician,
-        EngineMan
+        EngineMan,
+        HullTechnician
     }
 }

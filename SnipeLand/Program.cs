@@ -50,9 +50,44 @@ namespace SnipeLand
 
                 //6. create a monster in the room for the player to battle.
                 Rabbit r1 = new Rabbit(); //default ctor that sets some values by default
-                Rabbit r2 = new Rabbit("Hull Technician", 25, 25, 50, 20, 2, 8, "Thats no ordinary Hull Tech..look at the stripes!", true);
+                Rabbit r2 = new Rabbit("E2 Hull Tech", 2, 2, 2, 2, 2, 2, "Barely out of boot camp and inexperienced.", false);
+                Rabbit r3 = new Rabbit("E3 Hull Tech", 3, 3, 3, 3, 3, 3, "Almost a petty officer but inexperienced.", false);
+                Rabbit r4 = new Rabbit("PO3 Hull Tech", 4, 4, 4, 4, 4, 4, "A freshly minted 3rd class petty officer.", false);
+                Rabbit r5 = new Rabbit("PO2 Hull Tech", 5, 5, 5, 5, 5, 5, "A 2nd class petty officer, be careful.", false);
+                Rabbit r6 = new Rabbit("PO1 Hull Tech", 6, 6, 6, 6, 6, 6, "A 1st class petty officer, Watch Out.", false);
+                Rabbit r7 = new Rabbit("Chief Hull Tech", 7, 7, 7, 7, 7, 7, "A Chief petty officer, Move Out Of The Way.", false);
+                Rabbit r8 = new Rabbit("Senior Chief Hull Tech", 8, 8, 8, 8, 8, 8, "A Senior Chief petty officer, Stand Aside.", false);
+                Rabbit r9 = new Rabbit("Master Chief Hull Tech", 8, 8, 8, 8, 8, 8, "A Master Chief petty officer, Run.", false);
+                Rabbit r10 = new Rabbit(); //default ctor that sets some values by default
+                Rabbit r11 = new Rabbit("E2 Machinist Mate", 2, 2, 2, 2, 2, 2, "Barely out of boot camp and inexperienced.", false);
+                Rabbit r12 = new Rabbit("E3 Machinist Mate", 3, 3, 3, 3, 3, 3, "Almost a petty officer but inexperienced.", false);
+                Rabbit r13 = new Rabbit("PO3 Machinist Mate", 4, 4, 4, 4, 4, 4, "A freshly minted 3rd class petty officer.", false);
+                Rabbit r14 = new Rabbit("PO2 Machinist Mate", 5, 5, 5, 5, 5, 5, "A 2nd class petty officer, be careful.", false);
+                Rabbit r15 = new Rabbit("PO1 Machinist Mate", 6, 6, 6, 6, 6, 6, "A 1st class petty officer, Watch Out.", false);
+                Rabbit r16 = new Rabbit("Chief Machinist Mate", 7, 7, 7, 7, 7, 7, "A Chief petty officer, Move Out Of The Way.", false);
+                Rabbit r17 = new Rabbit("Senior Chief Machinist Mate", 8, 8, 8, 8, 8, 8, "A Senior Chief petty officer, Stand Aside.", false);
+                Rabbit r18 = new Rabbit("Master Chief Machinist Mate", 8, 8, 8, 8, 8, 8, "A Master Chief petty officer, Run.", false);
+                Rabbit r19 = new Rabbit(); //default ctor that sets some values by default
+                Rabbit r20 = new Rabbit("E2 Boiler Tech", 2, 2, 2, 2, 2, 2, "Barely out of boot camp and inexperienced.", false);
+                Rabbit r21 = new Rabbit("E3 Boiler Tech", 3, 3, 3, 3, 3, 3, "Almost a petty officer but inexperienced.", false);
+                Rabbit r22 = new Rabbit("PO3 Boiler Tech", 4, 4, 4, 4, 4, 4, "A freshly minted 3rd class petty officer.", false);
+                Rabbit r23 = new Rabbit("PO2 Boiler Tech", 5, 5, 5, 5, 5, 5, "A 2nd class petty officer, be careful.", false);
+                Rabbit r24 = new Rabbit("PO1 Boiler Tech", 6, 6, 6, 6, 6, 6, "A 1st class petty officer, Watch Out.", false);
+                Rabbit r25 = new Rabbit("Chief Boiler Tech", 7, 7, 7, 7, 7, 7, "A Chief petty officer, Move Out Of The Way.", false);
+                Rabbit r26 = new Rabbit("Senior Chief Boiler Tech", 8, 8, 8, 8, 8, 8, "A Senior Chief petty officer, Stand Aside.", false);
+                Rabbit r27 = new Rabbit("Master Chief Boiler Tech", 8, 8, 8, 8, 8, 8, "A Master Chief petty officer, Run.", false);
+                Rabbit r28 = new Rabbit(); //default ctor that sets some values by default
+                Rabbit r29 = new Rabbit("E2 Engineman", 2, 2, 2, 2, 2, 2, "Barely out of boot camp and inexperienced.", false);
+                Rabbit r30 = new Rabbit("E3 Engineman", 3, 3, 3, 3, 3, 3, "Almost a petty officer but inexperienced.", false);
+                Rabbit r31 = new Rabbit("PO3 Engineman", 4, 4, 4, 4, 4, 4, "A freshly minted 3rd class petty officer.", false);
+                Rabbit r32 = new Rabbit("PO2 Engineman", 5, 5, 5, 5, 5, 5, "A 2nd class petty officer, be careful.", false);
+                Rabbit r33 = new Rabbit("PO1 Engineman", 6, 6, 6, 6, 6, 6, "A 1st class petty officer, Watch Out.", false);
+                Rabbit r34 = new Rabbit("Chief Engineman", 7, 7, 7, 7, 7, 7, "A Chief petty officer, Move Out Of The Way.", false);
+                Rabbit r35 = new Rabbit("Senior Chief Engineman", 8, 8, 8, 8, 8, 8, "A Senior Chief petty officer, Stand Aside.", false);
+                Rabbit r36 = new Rabbit("Master Chief Engineman", 8, 8, 8, 8, 8, 8, "A Master Chief petty officer, Run.", false);
 
-                Monster[] monsters = { r1, r2, r2, r1, r1 }; //since all monster types will be a child of type monster, I can store them in
+
+                Monster[] monsters = { r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20, r21, r22, r23, r24, r25, r26, r27, r28, r29, r30, r31, r32, r33, r34, r35, r36 }; //since all monster types will be a child of type monster, I can store them in
 
                 //randomly selecting a monster for the room
                 Random rand = new Random();
