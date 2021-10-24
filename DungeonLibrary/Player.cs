@@ -13,14 +13,14 @@ namespace DungeonLibrary
         //No fields because the info specific to Player does NOT need biz rules
 
         //Props
-        public Race CharacterRace { get; set; }
+        public PlayerRace CharacterRace { get; set; }
         //We need our player to have a weapon. I want this weapon to be made up of many attributes (i.e. kind, is two handed, etc) so I need to 
         //make a custom data type class for weapon
         public Weapon EquippedWeapon { get; set; }
         
         
         //Ctors
-        public Player(string name, int hitChance, int block, int life, int maxLife, Race characterRace, Weapon equippedWeapon)
+        public Player(string name, int hitChance, int block, int life, int maxLife, PlayerRace characterRace, Weapon equippedWeapon)
         {
             //Since Life depends on MaxLife we will set a value for MaxLife first
             MaxLife = maxLife;
@@ -33,12 +33,12 @@ namespace DungeonLibrary
 
             switch (CharacterRace)
             {
-                case Race.MachinistMate:
+                case PlayerRace.ElectronicsTechnician:
                     break;
-                case Race.BoilerTechnician:
+                case PlayerRace.Radioman:
                     HitChance += 5; 
                     break;
-                case Race.EngineMan:
+                case PlayerRace.Signalman:
                     break;
             }
         }
@@ -50,14 +50,14 @@ namespace DungeonLibrary
 
             switch (CharacterRace)
             {
-                case Race.MachinistMate:
-                    description = "Machinst Mate";
+                case PlayerRace.ElectronicsTechnician:
+                    description = "Electronics Technician";
                     break;
-                case Race.BoilerTechnician:
-                    description = "Boiler Technician"; 
+                case PlayerRace.Radioman:
+                    description = "Radioman"; 
                     break;
-                case Race.EngineMan:
-                    description = "Engine Man";
+                case PlayerRace.Signalman:
+                    description = "Signalman";
                     break;
             }
 

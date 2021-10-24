@@ -31,10 +31,10 @@ namespace SnipeLand
             int score = 0;
 
             //2. Create a weapon for the player
-            Weapon pipewrench = new Weapon(8, "Pipe Wrench", 10, false, 1);
+            Weapon multimeter = new Weapon(8, "Multimeter", 10, false, 1);
 
             // 1. Create a player
-            Player player = new Player("Jenkins PO3", 70, 5, 40, 40, Race.MachinistMate, pipewrench);
+            Player player = new Player("Jenkins PO3", 70, 5, 40, 40, PlayerRace.ElectronicsTechnician, multimeter);
 
 
             //3. Add customization based on player
@@ -172,15 +172,22 @@ namespace SnipeLand
         {
             string[] rooms =
             {
-                "The room is dark and musty with the smell of lost souls.",
-                "You enter a pretty pink powder room and instantly get glitter on you.",
-                "You arrive in a room filled with chairs and a ticket stub machine...DMV",
-                "You enter a quiet library... silence... nothing but silence....",
-                "As you enter the room, you realize you are standing on a platform surrounded by sharks",
-                "Oh my.... what is that smell? You appear to be standing in a compost pile",
-                "You enter a dark room and all you can hear is hair band music blaring.... This is going to be bad!",
-                "Oh no.... the worst of them all... Oprah's bedroom....",
-                "The room looks just like the room you are sitting in right now... or does it?"
+                "Storerooms; issue rooms; refrigerated compartments.",
+                "Cargo holds and cargo refrigerated compartments.",
+                "CIC room; plotting rooms, communication centers; radio, radar, and sonar operating spaces; pilot house.",
+                "Main propulsion spaces; boiler rooms; evaporator rooms; steering gear rooms; auxiliary machinery spaces; pumprooms; generator rooms; switchboard rooms; windlass rooms.",
+                "Fuel-oil, diesel-oil, lubricating-oil, and fog-oil compartments.",
+                "Compartments carrying various types of oil as cargo.",
+                "Gasoline tanks, cofferdams, trunks, and pumprooms.",
+                "Gasoline compartments for carrying gasoline as cargo.",
+                "Chemicals, semisafe materials, and dangerous materials carried for ship's use or as cargo.",
+                "Berthing and messing spaces; staterooms, washrooms, heads, brigs; sickbays, hospital spaces; and passageways.",
+                "Magazines; handling rooms; turrets; gun mounts; shell rooms; ready service rooms ; clipping rooms.",
+                "Shops; offices; laundry;. galley; pantries; unmanned engineering, electrical, and electronic spaces.",
+                "Escape trunks or tubes.",
+                "Cofferdam compartments (other than gasoline); void wing compartments; wiring trunks.",
+                "Drainage tanks; fresh water tanks; peak tanks; reserve feed tanks."
+
             };
 
             Random rand = new Random();
