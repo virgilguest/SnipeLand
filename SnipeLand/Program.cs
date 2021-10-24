@@ -34,7 +34,7 @@ namespace SnipeLand
             Weapon multimeter = new Weapon(8, "Multimeter", 10, false, 1);
 
             // 1. Create a player
-            Player player = new Player("Jenkins PO3", 70, 5, 40, 40, PlayerRace.ElectronicsTechnician, multimeter);
+            Player player = new Player("E-1 Electronics Technician", 1, 1, 1, 1, PlayerRace.ElectronicsTechnician, multimeter);
 
 
             //3. Add customization based on player
@@ -151,7 +151,7 @@ namespace SnipeLand
                             exit = true;
                             break;
                         default:
-                            Console.WriteLine("Thou hast chosen an improper option. Triest thou again....");
+                            Console.WriteLine("You can't get there from here.");
                             break;
 
                     }
