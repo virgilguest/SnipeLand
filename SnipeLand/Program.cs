@@ -33,8 +33,135 @@ namespace SnipeLand
             //2. Create a weapon for the player
             Weapon multimeter = new Weapon(8, "Multimeter", 10, false, 1);
 
+
             // 1. Create a player
-            Player player = new Player("E-1 Electronics Technician", 1, 1, 1, 1, PlayerRace.ElectronicsTechnician, multimeter);
+            // give them the ability to choose a player.
+            Console.WriteLine("\nPlease choose a Player:\n" +
+   "A) E-1 Seaman Recruit\n" +
+   "B) E-2 Seaman Apprentice\n" +
+   "C) E-3 Seaman\n" +
+   "D) E-4 Third Class Petty Officer\n" +
+   "E) E-5 Second Class Petty Officer\n" +
+   "F) E-6 First Class Petty Officer\n" +
+   "G) E-7 Chief Petty Officer\n" +
+   "H) E-8 Senior Chief Petty Officer\n" +
+   "I) E-9 Master Chief Petty Officer\n");
+            //9. Capture user choice
+            ConsoleKey playerChoice = Console.ReadKey(true).Key;
+            Console.Clear();
+
+            bool pexit = false;
+            string choice1 = "";
+            int choice2 = 1;
+            int choice3 = 1;
+            int choice4 = 1;
+            int choice5 = 1;
+            //string choice6;
+            //10, do something based on users input
+
+            do
+            {
+                switch (playerChoice)
+
+                {
+                    case ConsoleKey.A:
+                        //MaxLife = maxLife;
+                        //Name = name;
+                        //HitChance = hitChance;
+                        //Block = block;
+                        //Life = life;
+                        //CharacterRace = characterRace;
+                        //EquippedWeapon = equippedWeapon;
+                        choice1 = "E-1 Electronics Technician";
+                        choice2 = 1;
+                        choice3 = 1;
+                        choice4 = 1;
+                        choice5 = 1;
+                        pexit = true;
+                        break;
+                    case ConsoleKey.B:
+                        choice1 = "E-2 Electronics Technician";
+                        choice2 = 2;
+                        choice3 = 2;
+                        choice4 = 2;
+                        choice5 = 2;
+                        pexit = true;
+                        break;
+
+                    case ConsoleKey.C:
+                        choice1 = "E-3 Electronics Technician";
+                        choice2 = 3;
+                        choice3 = 3;
+                        choice4 = 3;
+                        choice5 = 3;
+                        pexit = true;
+                        break;
+
+                    case ConsoleKey.D:
+                        choice1 = "E-4 Electronics Technician";
+                        choice2 = 4;
+                        choice3 = 4;
+                        choice4 = 4;
+                        choice5 = 4;
+                        pexit = true;
+                        break;
+
+                    case ConsoleKey.E:
+                        choice1 = "E-5 Electronics Technician";
+                        choice2 = 5;
+                        choice3 = 5;
+                        choice4 = 5;
+                        choice5 = 5;
+                        pexit = true;
+                        break;
+
+                    case ConsoleKey.F:
+                        choice1 = "E-6 Electronics Technician";
+                        choice2 = 6;
+                        choice3 = 6;
+                        choice4 = 6;
+                        choice5 = 6;
+                        pexit = true;
+                        break;
+
+                    case ConsoleKey.G:
+                        choice1 = "E-7 Electronics Technician";
+                        choice2 = 7;
+                        choice3 = 7;
+                        choice4 = 7;
+                        choice5 = 7;
+                        pexit = true;
+                        break;
+
+                    case ConsoleKey.H:
+                        choice1 = "E-8 Electronics Technician";
+                        choice2 = 8;
+                        choice3 = 8;
+                        choice4 = 8;
+                        choice5 = 8;
+                        pexit = true;
+                        
+                        break;
+
+                    case ConsoleKey.I:
+                        choice1 = "E-9 Electronics Technician";
+                        choice2 = 9;
+                        choice3 = 9;
+                        choice4 = 9;
+                        choice5 = 9;
+                        pexit = true;
+                        break;
+                }
+
+            } while (!pexit);
+            //build it now
+            Player player = new Player(choice1,  choice2 , choice3, choice4, choice5, PlayerRace.ElectronicsTechnician, multimeter);
+
+
+
+
+
+            //Player player = new Player("E-1 Electronics Technician", 1, 1, 1, 1, PlayerRace.ElectronicsTechnician, multimeter);
 
 
             //3. Add customization based on player
